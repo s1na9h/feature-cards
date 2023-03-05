@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+:root {
+  --orange: hsl(34, 97%, 64%);
+  --blue: hsl(212, 86%, 64%);
+  --red: hsl(0, 78%, 62%);
+  --cyan: hsl(180, 62%, 55%);
+  --very-dark-blue: hsl(234, 12%, 34%);
+  --grayish-blue: hsl(229, 6%, 66%);
+  --very-light-gray: hsl(0, 0%, 98%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+
+.header {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  text-align: center;
+  padding-inline: 1rem;
+}
+.header .header-title.first-line {
+  color: var(--very-dark-blue);
+  font-weight: 200;
+}
+.header .header-title.second-line {
+  color: var(--very-dark-blue);
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.header p {
+  font-size: 1.15rem;
+  margin-inline: auto;
+  max-width: 630px;
+  text-justify: auto;
+}
+
+@media (max-width: 592px) {
+  .header p {
+    max-width: 370px;
+  }
+}
+.card-section {
+  padding-inline: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+  margin-inline: auto;
+}
+
+.card-between-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  width: min(370px, 100%);
+}
+
+@media (max-width: 900px) {
+  .card-section {
+    flex-direction: column;
+  }
+}
+img {
+  display: block;
+  margin-left: auto;
+}
+
+.card-main {
+  padding: 2rem;
+  border-radius: 0.5rem;
+  width: min(370px, 100%);
+  box-shadow: 0 0 1rem -0.5rem var(--very-dark-blue);
+}
+.card-main p {
+  margin-bottom: 2.5rem;
+  font-size: 15px;
+  max-width: 18rem;
+}
+.card-main .title {
+  margin-bottom: 0.5rem;
+}
+.card-main.supervisor {
+  border-top: 0.5rem solid var(--cyan);
+}
+.card-main.team-builder {
+  border-top: 0.3rem solid var(--red);
+}
+.card-main.karma {
+  border-top: 0.3rem solid var(--orange);
+}
+.card-main.calculator {
+  border-top: 0.3rem solid var(--blue);
+}
+
+p {
+  color: var(--grayish-blue);
+}/*# sourceMappingURL=style.css.map */

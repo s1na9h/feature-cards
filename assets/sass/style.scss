@@ -1,0 +1,18 @@
+@import './_fonts';
+@import './_colors';
+
+* {
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+@import './_header';
+@import './_card-section';
+@import './_cards';
+
+p {
+    color: var(--grayish-blue);
+}
+

@@ -1,0 +1,38 @@
+img {
+    display: block;
+    margin-left: auto;  
+}
+
+.card-main {
+    
+    p {
+        margin-bottom: 2.5rem;
+        font-size: 15px;
+        max-width: 18rem;
+    }
+
+    .title {
+        margin-bottom: 0.5rem;
+    }
+    padding: 2rem;
+    border-radius: .5rem;
+    width: min(370px, 100%);
+
+    box-shadow: 0 0 1rem -.5rem var(--very-dark-blue);
+
+    &.supervisor {
+        border-top: .5rem solid var(--cyan) ;
+    }
+
+    &.team-builder {
+        border-top: .3rem solid var(--red) ;
+    }
+
+    &.karma {
+        border-top: .3rem solid var(--orange) ;
+    }
+
+    &.calculator {
+        border-top: .3rem solid var(--blue) ;
+    }
+}

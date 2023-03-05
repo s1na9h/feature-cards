@@ -1,0 +1,31 @@
+
+.header {
+    margin-top: 4rem;
+    margin-bottom:4rem;
+    text-align: center;
+    padding-inline: 1rem;
+
+    .header-title.first-line {
+        color: var(--very-dark-blue);
+        font-weight: 200;
+    }
+    
+    .header-title.second-line {
+        color: var(--very-dark-blue);
+        font-weight: 600;
+        margin-bottom: 1rem;
+    }
+
+    p {
+        font-size: 1.15rem;
+        margin-inline: auto;
+        max-width: 630px;
+        text-justify: auto;
+    }
+}
+
+@media (max-width:592px) {
+    .header p {
+        max-width: 370px;
+    }
+}

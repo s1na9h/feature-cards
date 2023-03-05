@@ -1,0 +1,24 @@
+.card-section {
+    padding-inline: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+    margin-inline: auto;
+}
+
+.card-between-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    width: min(370px,100%);
+}
+
+@media (max-width: 900px) {
+    .card-section {
+        flex-direction: column;
+    }
+}
